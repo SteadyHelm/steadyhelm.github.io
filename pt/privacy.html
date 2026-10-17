@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SteadyHelm Política de Privacidade</title>
+<meta name="description" content="SteadyHelm: monitor de movimento e alarme para barcos no iPhone.">
+<style>
+:root{--bg:#0a0f12;--panel:#10171b;--line:#22303a;--text:#d9e2e6;--muted:#8b9aa0;--accent:#ffb454;--link:#7cc4ff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8f9;--panel:#ffffff;--line:#dde3e6;--text:#162026;--muted:#56656c;--accent:#b86a00;--link:#0b62b5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px}
+.brand{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a[aria-current]{color:var(--text);font-weight:600}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}
+h2{font-size:19px;margin:32px 0 8px}
+p,li{margin:0 0 14px}
+a{color:var(--link)}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:14px}
+.langs{margin:-14px 0 24px;line-height:1.9}
+.langs a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./">SteadyHelm</a><nav><a href="./">Início</a><a href="privacy" aria-current="page">Privacidade</a><a href="support">Suporte</a></nav></header>
+<p class="muted langs"><a href="../privacy" hreflang="en-GB" lang="en-GB">English</a> · <a href="../fr/privacy" hreflang="fr" lang="fr">Français</a> · <a href="../de/privacy" hreflang="de" lang="de">Deutsch</a> · <a href="../es/privacy" hreflang="es" lang="es">Español</a> · <a href="../it/privacy" hreflang="it" lang="it">Italiano</a> · <a href="../nb/privacy" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../sv/privacy" hreflang="sv" lang="sv">Svenska</a> · <b>Português</b> · <a href="../nl/privacy" hreflang="nl" lang="nl">Nederlands</a></p>
+<h1>Política de Privacidade</h1>
+<p class="muted">Última atualização: 4 de outubro de 2026. É a mesma política apresentada na app em Menu → Instruções → Política de Privacidade.</p>
+<p><b>Os seus dados ficam no seu barco.</b> O SteadyHelm não tem servidor, não existe conta nem início de sessão, e nada sai do seu telemóvel a menos que decida enviá-lo. Tudo o que a aplicação mede é processado no seu dispositivo, só para os seus olhos, até decidir o contrário.</p>
+<p><b>O que a aplicação lê do seu dispositivo:</b> sensores de movimento e orientação (acelerómetro, giroscópio e magnetómetro), necessários para o propósito central da aplicação de medir o Balanço, o Caturro, o rumo da Bússola, a Vibração e as estimativas de Arfagem/Guinada/Avanço/Deriva — o magnetómetro é usado apenas para calcular o rumo da Bússola, tal como qualquer bússola de telemóvel; o microfone, usado apenas para analisar a frequência do ruído ambiente do casco/motor para a leitura de Ruído — o áudio é processado instantaneamente no dispositivo e descartado, nunca gravado, guardado ou transmitido; e a localização, usada apenas se ativar o Vigia de Âncora, para medir a distância a que o barco se afastou do ponto de âncora definido e para incluir a posição do barco nas suas mensagens de alerta — desativada por predefinição e não usada para mais nada.</p>
+<p><b>Onde os seus dados são guardados:</b> os registos — os que grava por si e o registo automático das últimas 4 horas mantido enquanto o Alerta de Banda ou o Vigia de Âncora estiver ligado — são guardados como ficheiros no armazenamento próprio do SteadyHelm no seu telefone. Contêm apenas leituras de movimento e o estado dos alertas, nunca a sua localização nem qualquer áudio. Tal como os dados das suas outras apps, estão incluídos nas cópias de segurança do telefone (iCloud ou computador), se as tiver ativadas. Permanecem no seu telefone, a menos que opte por exportar um em CSV e partilhá-lo por si, através da folha de partilha do dispositivo.</p>
+<p><b>Durante quanto tempo os seus dados são guardados e como apagá-los:</b> os registos que grava, e as gravações guardadas quando um alerta dispara, ficam no seu telefone até os apagar. Para apagar um, abra <b>Menu → Diário de bordo</b> e toque em <b>Eliminar</b>. O registo automático de 4 horas apaga sozinho as partes mais antigas à medida que avança, por isso nunca guarda mais do que as últimas 4 horas. O token do seu bot do Telegram e o seu ID de conversa ficam no telefone até tocar em <b>Limpar Definições do Telegram</b>. Eliminar o SteadyHelm do telefone apaga todos os seus dados, exceto as cópias nas cópias de segurança do telefone e aquilo que tenha exportado ou enviado.</p>
+<p><b>O Alerta de Banda e o Vigia de Âncora</b> são funcionalidades opcionais, incluídas no SteadyHelm. O Alerta de Banda vigia a inclinação do barco à procura de uma banda persistente que possa significar entrada de água, uma carga desigual ou um encalhe. O Vigia de Âncora usa a localização do seu telemóvel para verificar se o barco se afastou do ponto de âncora que definiu. A Vigia de Âncora pode continuar a funcionar em segundo plano enquanto ativada, mesmo com o ecrã bloqueado, e o Alerta de Banda continua a funcionar com ela. Sozinho, o Alerta de Banda só funciona enquanto o SteadyHelm está aberto no ecrã, e mantém o ecrã ligado enquanto ativado. Ativar o Vigia de Âncora é a única forma de esta app ler a sua localização. É usada no seu dispositivo e só sai do seu telefone dentro de uma mensagem de alerta enviada para o seu próprio bot do Telegram, se o tiver configurado — como a posição do barco com ligações de mapa — e nunca para mais lado nenhum. Ambas as funcionalidades podem soar um alarme no dispositivo, e pode opcionalmente ligar o seu próprio bot do Telegram (criado através do BotFather do próprio Telegram, usando a sua própria conta de Telegram, não a nossa), para que uma mensagem de alerta chegue até si mesmo que não esteja a ver a aplicação. Se configurar isto, o token do bot e o Chat ID fornecidos são guardados apenas no seu dispositivo, e uma mensagem de alerta é enviada diretamente do seu telemóvel para o Telegram usando o seu próprio bot — o SteadyHelm não tem servidor próprio nesse percurso, e nenhuma mensagem é enviada a menos que um alerta seja realmente acionado e tenha ativado os alertas via Telegram. Se o SteadyHelm deixar de vigiar enquanto houver um alerta ligado, este telefone pode mostrar uma notificação «O SteadyHelm deixou de vigiar» — é agendada no próprio telefone, sem qualquer servidor.</p>
+<p><b>Telegram:</b> o Telegram é uma empresa independente. Se ativar os alertas do Telegram, cada mensagem de alerta vai diretamente do seu telefone para o Telegram e é entregue na sua própria conversa. A mensagem contém os detalhes do alerta e, se a Vigia de Âncora estiver ativa, a posição do barco com ligações para mapas. Durante a configuração, o SteadyHelm também pede ao Telegram o nome do seu bot e o seu ID de conversa. Quando uma mensagem chega ao Telegram, é tratada segundo a política de privacidade do próprio Telegram (telegram.org/privacy) e fica na sua conversa até a apagar lá. O SteadyHelm nunca envia os seus registos nem qualquer áudio para o Telegram.</p>
+<p><b>O que o SteadyHelm não faz:</b> não tem conta nem início de sessão de qualquer tipo; não tem análises, rastreio ou serviços de publicidade; nunca vende dados a ninguém; nada é partilhado com terceiros, exceto quando opta por exportar ou enviar dados, ou ativa o alerta opcional via Telegram descrito acima; e não recolhe dados de localização a menos que ative o Vigia de Âncora.</p>
+<p><b>Uma única compra, sem mais nada para comprar.</b> O SteadyHelm é uma compra única através da App Store — não existe subscrição, compra dentro da aplicação, nem um desbloqueio "Pro" para comprar mais tarde. Todas as funcionalidades descritas acima, incluindo o Alerta de Banda e o Vigia de Âncora, já estão incluídas nessa compra única, gerida inteiramente através do sistema de compras da própria Apple — o SteadyHelm nunca vê nem guarda os dados do seu pagamento.</p>
+<p><b>Privacidade das crianças:</b> o SteadyHelm é uma ferramenta de instrumentação marítima, não é dirigido a crianças e não recolhe conscientemente informação de ninguém.</p>
+<p><b>Alterações a esta política:</b> se as práticas do SteadyHelm relativas a dados mudarem, esta política será atualizada, aqui na app e em steadyhelm.github.io/privacy.</p>
+<p>Tem questões sobre esta política? Contacte-nos em <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a>.</p>
+
+<footer class="muted">SteadyHelm v1.0. Contacto: <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a></footer>
+</div>
+</body>
+</html>

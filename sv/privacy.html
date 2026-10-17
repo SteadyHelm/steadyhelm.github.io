@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SteadyHelm Sekretesspolicy</title>
+<meta name="description" content="SteadyHelm: rörelsemätare och larm för båtar på iPhone.">
+<style>
+:root{--bg:#0a0f12;--panel:#10171b;--line:#22303a;--text:#d9e2e6;--muted:#8b9aa0;--accent:#ffb454;--link:#7cc4ff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8f9;--panel:#ffffff;--line:#dde3e6;--text:#162026;--muted:#56656c;--accent:#b86a00;--link:#0b62b5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px}
+.brand{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a[aria-current]{color:var(--text);font-weight:600}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}
+h2{font-size:19px;margin:32px 0 8px}
+p,li{margin:0 0 14px}
+a{color:var(--link)}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:14px}
+.langs{margin:-14px 0 24px;line-height:1.9}
+.langs a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./">SteadyHelm</a><nav><a href="./">Hem</a><a href="privacy" aria-current="page">Sekretess</a><a href="support">Support</a></nav></header>
+<p class="muted langs"><a href="../privacy" hreflang="en-GB" lang="en-GB">English</a> · <a href="../fr/privacy" hreflang="fr" lang="fr">Français</a> · <a href="../de/privacy" hreflang="de" lang="de">Deutsch</a> · <a href="../es/privacy" hreflang="es" lang="es">Español</a> · <a href="../it/privacy" hreflang="it" lang="it">Italiano</a> · <a href="../nb/privacy" hreflang="nb" lang="nb">Norsk bokmål</a> · <b>Svenska</b> · <a href="../pt/privacy" hreflang="pt" lang="pt">Português</a> · <a href="../nl/privacy" hreflang="nl" lang="nl">Nederlands</a></p>
+<h1>Sekretesspolicy</h1>
+<p class="muted">Senast uppdaterad 4 oktober 2026. Det här är samma policy som visas i appen under Meny → Instruktioner → Sekretesspolicy.</p>
+<p><b>Din data stannar på din båt.</b> SteadyHelm har ingen server, det finns inget konto eller någon inloggning, och inget lämnar din telefon om du inte själv väljer att skicka det. Allt appen mäter behandlas på din enhet, bara för dina ögon, tills du bestämmer något annat.</p>
+<p><b>Vad appen läser från din enhet:</b> rörelse- och orienteringssensorer (accelerometer, gyroskop och magnetometer), som krävs för appens huvudsyfte att mäta Rullning, Stampning, Kompasskurs, Vibration och de uppskattade mätvärdena Hävning/Girning/Surge/Svajning — magnetometern används enbart för att beräkna kompasskursen, på samma sätt som alla telefonkompasser fungerar; mikrofonen, som endast används för att analysera omgivande skrov-/motorljudsfrekvens för akustikvärdet — ljud bearbetas direkt på enheten och kasseras, spelas aldrig in, sparas eller överförs; samt plats, som endast används om du slår på Ankarvakt, för att mäta hur långt båten har rört sig från den ankarpunkt du angett och för att ta med båtens position i dina larmmeddelanden — avstängt som standard och används inte till något annat.</p>
+<p><b>Var dina data lagras:</b> loggar — de du spelar in själv, och den automatiska loggen över de senaste 4 timmarna som förs medan Slagsidelarm eller Ankarvakt är påslaget — sparas som filer i SteadyHelms egen lagring på din telefon. De innehåller bara rörelsemätvärden och larmstatus, aldrig din position eller något ljud. Precis som dina andra appars data ingår de i telefonens egna säkerhetskopior (iCloud eller dator) om du har dem påslagna. De stannar på din telefon om du inte själv väljer att exportera en som CSV och dela den via enhetens delningsblad.</p>
+<p><b>Hur länge dina data sparas och hur du raderar dem:</b> Loggar du spelar in, och inspelningarna som sparas när ett larm går, ligger kvar på telefonen tills du raderar dem. För att radera en, öppna <b>Meny → Loggbok</b> och tryck på <b>Radera</b>. Den automatiska 4-timmarsloggen raderar själv sina äldsta delar efter hand, så den innehåller aldrig mer än de senaste 4 timmarna. Din Telegram-bots token och ditt chatt-ID ligger kvar på telefonen tills du trycker på <b>Rensa Telegram-inställningar</b>. Om du raderar SteadyHelm från telefonen raderas alla dess data, utom kopior i telefonens säkerhetskopior och sådant du själv har exporterat eller skickat.</p>
+<p><b>Slagsidelarm och Ankarvakt</b> är valfria funktioner som ingår i SteadyHelm. Slagsidelarm övervakar båtens lutning för en ihållande lutning som kan tyda på vatteninträngning, ojämn last eller grundstötning. Ankarvakt använder telefonens plats för att kontrollera om båten har flyttat sig från den ankarpunkt du angett. Ankarvakt kan fortsätta köras i bakgrunden medan den är aktiverad, även med skärmen låst, och Slagsidelarm körs vidare tillsammans med den. Ensamt fungerar Slagsidelarm bara medan SteadyHelm är öppen på skärmen, och håller skärmen på medan det är aktiverat. Att slå på Ankarvakt är det enda sättet som den här appen läser din plats. Den används på din enhet och lämnar bara telefonen i ett larmmeddelande som skickas till din egen Telegram-bot, om du har konfigurerat det — som båtens position med kartlänkar — aldrig någon annanstans. Båda funktionerna kan ge ett larm på enheten, och du kan valfritt ansluta din egen Telegram-bot (skapad via Telegrams eget BotFather, med ditt eget Telegram-konto, inte vårt) så att ett larmmeddelande når dig även om du inte tittar på appen. Om du ställer in detta lagras bot-token och chat-ID du anger endast på din enhet, och ett larmmeddelande skickas direkt från din telefon till Telegram med hjälp av din egen bot — SteadyHelm har ingen egen server i den vägen, och inget meddelande skickas om inte ett larm faktiskt utlöses och du har slagit på Telegram-larm. Om SteadyHelm slutar övervaka medan ett larm är påslaget kan den här telefonen visa en notis om att ”SteadyHelm har slutat övervaka” — den schemaläggs på själva telefonen, utan någon server.</p>
+<p><b>Telegram:</b> Telegram är ett separat företag. Om du slår på Telegram-larm går varje larmmeddelande direkt från telefonen till Telegram och levereras i din egen chatt. Meddelandet innehåller larmets detaljer och, om Ankarvakt är på, båtens position med kartlänkar. Under konfigurationen frågar SteadyHelm också Telegram efter din bots namn och ditt chatt-ID. När ett meddelande har nått Telegram hanteras det enligt Telegrams egen integritetspolicy (telegram.org/privacy), och det ligger kvar i chatten tills du raderar det där. SteadyHelm skickar aldrig dina loggar eller något ljud till Telegram.</p>
+<p><b>Vad SteadyHelm inte gör:</b> inget konto eller inloggning av något slag; ingen analys-, spårnings- eller annonstjänst; ingen data säljs någonsin till någon; inget delas med tredje part förutom när du själv väljer att exportera eller skicka det, eller slår på det valfria Telegram-larmet som beskrivs ovan; och ingen platsdata samlas in om du inte slår på Ankarvakt.</p>
+<p><b>Ett köp, inget mer att köpa.</b> SteadyHelm är ett engångsköp via App Store — det finns inget abonnemang, inget köp i appen, och ingen "Pro"-uppgradering att köpa senare. Alla funktioner som beskrivs ovan, inklusive Slagsidelarm och Ankarvakt, ingår redan i det köpet, som hanteras helt via Apples eget köpsystem — SteadyHelm ser eller sparar aldrig dina betalningsuppgifter.</p>
+<p><b>Barns integritet:</b> SteadyHelm är ett marint instrumentverktyg, inte riktat till barn, och samlar inte medvetet in information från någon.</p>
+<p><b>Ändringar i denna policy:</b> Om SteadyHelms hantering av data någon gång ändras uppdateras denna policy, både här i appen och på steadyhelm.github.io/privacy.</p>
+<p>Frågor om denna policy? Kontakta oss på <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a>.</p>
+
+<footer class="muted">SteadyHelm v1.0. Kontakt: <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a></footer>
+</div>
+</body>
+</html>

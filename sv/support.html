@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SteadyHelm Support</title>
+<meta name="description" content="SteadyHelm: rörelsemätare och larm för båtar på iPhone.">
+<style>
+:root{--bg:#0a0f12;--panel:#10171b;--line:#22303a;--text:#d9e2e6;--muted:#8b9aa0;--accent:#ffb454;--link:#7cc4ff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8f9;--panel:#ffffff;--line:#dde3e6;--text:#162026;--muted:#56656c;--accent:#b86a00;--link:#0b62b5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px}
+.brand{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a[aria-current]{color:var(--text);font-weight:600}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}
+h2{font-size:19px;margin:32px 0 8px}
+p,li{margin:0 0 14px}
+a{color:var(--link)}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:14px}
+.langs{margin:-14px 0 24px;line-height:1.9}
+.langs a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./">SteadyHelm</a><nav><a href="./">Hem</a><a href="privacy">Sekretess</a><a href="support" aria-current="page">Support</a></nav></header>
+<p class="muted langs"><a href="../support" hreflang="en-GB" lang="en-GB">English</a> · <a href="../fr/support" hreflang="fr" lang="fr">Français</a> · <a href="../de/support" hreflang="de" lang="de">Deutsch</a> · <a href="../es/support" hreflang="es" lang="es">Español</a> · <a href="../it/support" hreflang="it" lang="it">Italiano</a> · <a href="../nb/support" hreflang="nb" lang="nb">Norsk bokmål</a> · <b>Svenska</b> · <a href="../pt/support" hreflang="pt" lang="pt">Português</a> · <a href="../nl/support" hreflang="nl" lang="nl">Nederlands</a></p>
+<h1>Support</h1>
+<div class="card">
+<p><b>Behöver du hjälp?</b> Mejla <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a>. Ange din iPhone-modell, iOS-version och gärna en skärmbild av problemet.</p>
+<p class="muted" style="margin:0">Hela instruktionen finns i appen: öppna <b>Meny → Instruktioner</b>.</p>
+</div>
+
+<h2>Vanliga problem</h2>
+<p><b>Inget larm kom.</b> Kontrollera <b>Larma mig med:</b> för det larmet. Kontrollera att Strömsparläge är av och att SteadyHelm inte sveptes bort. Om bara Slagsidelarm är på, kontrollera att SteadyHelm lämnades öppen på skärmen. För Telegram skickar du ett testmeddelande från Telegram-skärmen.</p>
+<p><b>Värdena ser fel ut.</b> Tryck på <b>Nollställ</b> igen medan båten ligger normalt.</p>
+<p><b>Telegram-inställningen fungerade inte.</b> Tryck på <b>Rensa Telegram-inställningar</b> och börja om från steg 1.</p>
+<p><b>Larmet kom tillbaka efter att jag tystat det.</b> <b>Tysta larm</b> stoppar banderollen och ljudet på den här telefonen. För <b>Slagsidelarm</b> börjar övervakningen också om från noll, och Telegram-påminnelserna slutar. Om båten fortfarande har slagsida kommer de larm du valt tillbaka efter tiden som visas under <b>Känslighet</b>. För <b>Ankarvakt</b> fortsätter Telegram-meddelandena med en påminnelse var 5:e minut, och banderollen och ljudet kommer tillbaka om båten driver längre.</p>
+
+<h2>Så fortsätter SteadyHelm att vakta</h2>
+<ul>
+<li>Svep inte bort SteadyHelm i appväxlaren.</li>
+<li>Stäng av Strömsparläge medan ett larm är på. iOS kan pausa SteadyHelm för att spara ström.</li>
+<li>För Ankarvakt ställer du in plats för SteadyHelm på <b>Alltid</b> i iPhones Inställningar-app.</li>
+<li>Om telefonen startar om låser du upp den och öppnar SteadyHelm. Dina larm fortsätter med samma inställningar.</li>
+<li>Om SteadyHelm av någon anledning slutar vakta visar den här telefonen en notis inom ungefär 10 minuter. Tillåt notiser när SteadyHelm frågar.</li>
+</ul>
+
+<h2>Få larm på en annan telefon</h2>
+<p>Telegram kan skicka SteadyHelms larm till telefonen du bär med dig. Ställ in det i <b>Meny → Larmmetoder → Telegram</b>. Skärmen guidar dig genom sex steg.</p>
+<p>Lämnar du en reservtelefon i båten? Ställ först in Telegram på din egen telefon. Tryck sedan på <b>Visa QR</b> på din telefon och <b>Skanna QR</b> på reservtelefonen för att kopiera inställningarna. Reservtelefonen behöver inte Telegram.</p>
+
+<h2>Säkerhet</h2>
+<p><b>Observera:</b> SteadyHelm är en extra hjälp, inte certifierad säkerhets- eller navigationsutrustning. Telefonens sensorer, GPS och larm kan sluta fungera eller bli försenade. Håll alltid ordentlig utkik och följ gott sjömanskap.</p>
+
+<h2>Sekretess</h2>
+<p>SteadyHelm har ingen server, inget konto och ingen spårning. Hela policyn: <a href="privacy">Sekretesspolicy</a>.</p>
+
+<footer class="muted">SteadyHelm v1.0. Kontakt: <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a></footer>
+</div>
+</body>
+</html>

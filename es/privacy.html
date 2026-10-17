@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SteadyHelm Política de Privacidad</title>
+<meta name="description" content="SteadyHelm: monitor de movimiento y alarma para barcos en iPhone.">
+<style>
+:root{--bg:#0a0f12;--panel:#10171b;--line:#22303a;--text:#d9e2e6;--muted:#8b9aa0;--accent:#ffb454;--link:#7cc4ff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8f9;--panel:#ffffff;--line:#dde3e6;--text:#162026;--muted:#56656c;--accent:#b86a00;--link:#0b62b5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px}
+.brand{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a[aria-current]{color:var(--text);font-weight:600}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}
+h2{font-size:19px;margin:32px 0 8px}
+p,li{margin:0 0 14px}
+a{color:var(--link)}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:14px}
+.langs{margin:-14px 0 24px;line-height:1.9}
+.langs a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./">SteadyHelm</a><nav><a href="./">Inicio</a><a href="privacy" aria-current="page">Privacidad</a><a href="support">Soporte</a></nav></header>
+<p class="muted langs"><a href="../privacy" hreflang="en-GB" lang="en-GB">English</a> · <a href="../fr/privacy" hreflang="fr" lang="fr">Français</a> · <a href="../de/privacy" hreflang="de" lang="de">Deutsch</a> · <b>Español</b> · <a href="../it/privacy" hreflang="it" lang="it">Italiano</a> · <a href="../nb/privacy" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../sv/privacy" hreflang="sv" lang="sv">Svenska</a> · <a href="../pt/privacy" hreflang="pt" lang="pt">Português</a> · <a href="../nl/privacy" hreflang="nl" lang="nl">Nederlands</a></p>
+<h1>Política de Privacidad</h1>
+<p class="muted">Última actualización: 4 de octubre de 2026. Es la misma política que se muestra en la app en Menú → Instrucciones → Política de Privacidad.</p>
+<p><b>Sus datos permanecen en su barco.</b> SteadyHelm no tiene servidor, no hay cuenta ni inicio de sesión, y nada sale de su teléfono a menos que usted decida enviarlo. Todo lo que la app mide se procesa en su dispositivo, solo para usted, hasta que decida lo contrario.</p>
+<p><b>Qué lee la app de su dispositivo:</b> sensores de movimiento y orientación (acelerómetro, giroscopio y magnetómetro), necesarios para la función principal de la app de medir el Balanceo, el Cabeceo, el rumbo de la Brújula, la Vibración y las lecturas estimadas de Arfada/Guiñada/Avance/Deriva Lateral — el magnetómetro se usa únicamente para calcular el rumbo de la Brújula, del mismo modo que funciona cualquier brújula de teléfono; el micrófono, usado únicamente para analizar la frecuencia del ruido ambiental del casco/motor para la lectura Acústica — el audio se procesa al instante en el dispositivo y se descarta, nunca se graba, guarda ni transmite; y la ubicación, usada solo si activa el Vigía de Fondeo, para medir cuánto se ha alejado el barco del punto de anclaje que estableció e incluir la posición del barco en sus mensajes de alerta — desactivada por defecto y no usada para ningún otro fin.</p>
+<p><b>Dónde se guardan sus datos:</b> los registros — los que graba usted mismo y el registro automático de las últimas 4 horas que se mantiene mientras la Alerta de Escora o el Vigía de Fondeo está activado — se guardan como archivos en el almacenamiento propio de SteadyHelm en su teléfono. Solo contienen lecturas de movimiento y el estado de las alertas, nunca su ubicación ni ningún audio. Como los datos de sus otras apps, se incluyen en las copias de seguridad de su teléfono (iCloud u ordenador) si las tiene activadas. Permanecen en su teléfono salvo que decida exportar uno como CSV y compartirlo usted mismo, mediante la hoja de compartir de su dispositivo.</p>
+<p><b>Cuánto tiempo se guardan sus datos y cómo borrarlos:</b> los registros que usted graba, y las grabaciones guardadas cuando salta una alerta, permanecen en su teléfono hasta que los borre. Para borrar uno, abra <b>Menú → Bitácora</b> y toque <b>Eliminar</b>. El registro automático de 4 horas borra por sí mismo sus partes más antiguas sobre la marcha, así que nunca guarda más que las últimas 4 horas. El token de su bot de Telegram y su ID de chat permanecen en su teléfono hasta que toque <b>Borrar Configuración de Telegram</b>. Eliminar SteadyHelm de su teléfono borra todos sus datos, salvo las copias en las copias de seguridad de su teléfono y lo que usted mismo haya exportado o enviado.</p>
+<p><b>La Alerta de Escora y el Vigía de Fondeo</b> son funciones opcionales, incluidas en SteadyHelm. La Alerta de Escora vigila la inclinación de su barco en busca de una escora persistente que podría indicar entrada de agua, una carga desequilibrada o un varamiento. El Vigía de Fondeo usa la ubicación de su teléfono para comprobar si el barco se ha alejado del punto de anclaje que usted estableció. La Vigía de Fondeo puede seguir funcionando en segundo plano mientras esté activada, incluso con la pantalla bloqueada, y la Alerta de Escora sigue funcionando con ella. Por sí sola, la Alerta de Escora solo funciona mientras SteadyHelm está abierto en pantalla, y mantiene la pantalla encendida mientras está activada. Activar el Vigía de Fondeo es la única forma en que esta app lee su ubicación. Se usa en su dispositivo, y solo sale de su teléfono dentro de un mensaje de alerta enviado a su propio bot de Telegram, si lo ha configurado — como la posición del barco con enlaces de mapa — y nunca a ningún otro sitio. Ambas funciones pueden hacer sonar una alarma en el dispositivo, y opcionalmente puede conectar su propio bot de Telegram (creado mediante el BotFather del propio Telegram, usando su propia cuenta de Telegram, no la nuestra) para que un mensaje de alerta le llegue incluso si no está mirando la app. Si configura esto, el token del bot y el Chat ID que proporcione se guardan únicamente en su dispositivo, y un mensaje de alerta se envía directamente desde su teléfono a Telegram usando su propio bot — SteadyHelm no tiene servidor propio en ese proceso, y no se envía ningún mensaje a menos que se active realmente una alerta y usted haya activado las alertas de Telegram. Si SteadyHelm deja de vigilar mientras hay una alerta activada, este teléfono puede mostrar una notificación «SteadyHelm ha dejado de vigilar» — se programa en el propio teléfono, sin ningún servidor.</p>
+<p><b>Telegram:</b> Telegram es una empresa independiente. Si activa las alertas de Telegram, cada mensaje de alerta va directamente de su teléfono a Telegram y llega a su propio chat. El mensaje contiene los detalles de la alerta y, si la Vigía de Fondeo está activada, la posición del barco con enlaces a mapas. Durante la configuración, SteadyHelm también pide a Telegram el nombre de su bot y su ID de chat. Una vez que un mensaje llega a Telegram, se rige por la política de privacidad de Telegram (telegram.org/privacy) y permanece en su chat hasta que lo borre allí. SteadyHelm nunca envía sus registros ni ningún audio a Telegram.</p>
+<p><b>Lo que SteadyHelm no hace:</b> ninguna cuenta ni inicio de sesión de ningún tipo; sin servicios de análisis, seguimiento o publicidad; ningún dato se vende a nadie, nunca; nada se comparte con terceros excepto cuando usted decide exportarlo o enviarlo, o activa la alerta opcional de Telegram descrita arriba; y no se recopilan datos de ubicación a menos que active el Vigía de Fondeo.</p>
+<p><b>Una sola compra, nada más que comprar.</b> SteadyHelm es una compra única a través de la App Store — no hay suscripción, ni compra dentro de la app, ni desbloqueo "Pro" que comprar más adelante. Todas las funciones descritas anteriormente, incluidas la Alerta de Escora y el Vigía de Fondeo, están incluidas en esa compra única, gestionada íntegramente por el propio sistema de compras de Apple — SteadyHelm nunca ve ni almacena los datos de su pago.</p>
+<p><b>Privacidad de los menores:</b> SteadyHelm es una herramienta de instrumentación marina, no está dirigida a menores y no recopila conscientemente información de nadie.</p>
+<p><b>Cambios en esta política:</b> si alguna vez cambian las prácticas de SteadyHelm sobre los datos, esta política se actualizará, aquí en la app y en steadyhelm.github.io/privacy.</p>
+<p>¿Preguntas sobre esta política? Contáctenos en <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a>.</p>
+
+<footer class="muted">SteadyHelm v1.0. Contacto: <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a></footer>
+</div>
+</body>
+</html>

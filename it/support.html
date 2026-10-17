@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SteadyHelm Assistenza</title>
+<meta name="description" content="SteadyHelm: monitor dei movimenti e allarme per la barca su iPhone.">
+<style>
+:root{--bg:#0a0f12;--panel:#10171b;--line:#22303a;--text:#d9e2e6;--muted:#8b9aa0;--accent:#ffb454;--link:#7cc4ff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8f9;--panel:#ffffff;--line:#dde3e6;--text:#162026;--muted:#56656c;--accent:#b86a00;--link:#0b62b5}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px}
+.brand{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a[aria-current]{color:var(--text);font-weight:600}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}
+h2{font-size:19px;margin:32px 0 8px}
+p,li{margin:0 0 14px}
+a{color:var(--link)}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:14px}
+.langs{margin:-14px 0 24px;line-height:1.9}
+.langs a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./">SteadyHelm</a><nav><a href="./">Home</a><a href="privacy">Privacy</a><a href="support" aria-current="page">Assistenza</a></nav></header>
+<p class="muted langs"><a href="../support" hreflang="en-GB" lang="en-GB">English</a> · <a href="../fr/support" hreflang="fr" lang="fr">Français</a> · <a href="../de/support" hreflang="de" lang="de">Deutsch</a> · <a href="../es/support" hreflang="es" lang="es">Español</a> · <b>Italiano</b> · <a href="../nb/support" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../sv/support" hreflang="sv" lang="sv">Svenska</a> · <a href="../pt/support" hreflang="pt" lang="pt">Português</a> · <a href="../nl/support" hreflang="nl" lang="nl">Nederlands</a></p>
+<h1>Assistenza</h1>
+<div class="card">
+<p><b>Serve aiuto?</b> Scriva a <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a>. Indichi il modello di iPhone, la versione di iOS e, se possibile, uno screenshot del problema.</p>
+<p class="muted" style="margin:0">Le istruzioni complete sono nell'app: apra <b>Menu → Istruzioni</b>.</p>
+</div>
+
+<h2>Problemi comuni</h2>
+<p><b>Non è arrivato nessun avviso.</b> Controlli <b>Avvisami con:</b> per quell'avviso. Controlli che il Risparmio energetico sia disattivato e che SteadyHelm non sia stato chiuso con uno scorrimento. Se è attivo solo l'Avviso di Sbandamento, controlli che SteadyHelm sia rimasto aperto sullo schermo. Per Telegram, invii un messaggio di prova dalla schermata Telegram.</p>
+<p><b>Le letture sembrano sbagliate.</b> Tocchi di nuovo <b>Azzera</b> con la barca nella sua posizione normale.</p>
+<p><b>La configurazione di Telegram non ha funzionato.</b> Tocchi <b>Cancella Impostazioni Telegram</b> e ricominci dal passaggio 1.</p>
+<p><b>L'allarme è tornato dopo che l'ho silenziato.</b> <b>Silenzia allarme</b> ferma il banner e il suono su questo telefono. Per l'<b>Avviso di Sbandamento</b>, inoltre, il controllo riparte da zero e i promemoria Telegram si fermano. Se la barca resta sbandata, gli avvisi scelti tornano dopo il tempo indicato sotto <b>Sensibilità</b>. Per la <b>Guardia all'Ancora</b>, i messaggi Telegram continuano con un promemoria ogni 5 minuti, e banner e suono tornano se la barca si sposta ancora.</p>
+
+<h2>Perché SteadyHelm continui a sorvegliare</h2>
+<ul>
+<li>Non chiuda SteadyHelm scorrendolo via dal selettore app.</li>
+<li>Disattivi la modalità Risparmio energetico mentre un avviso è attivo. iOS può mettere in pausa SteadyHelm per risparmiare batteria.</li>
+<li>Per la Guardia all'Ancora, imposti la posizione di SteadyHelm su <b>Sempre</b> nell'app Impostazioni dell'iPhone.</li>
+<li>Se il telefono si riavvia, lo sblocchi e apra SteadyHelm. I suoi avvisi riprendono con le stesse impostazioni.</li>
+<li>Se SteadyHelm smette di sorvegliare per qualsiasi motivo, questo telefono mostra una notifica entro circa 10 minuti. Consenta le notifiche quando SteadyHelm lo chiede.</li>
+</ul>
+
+<h2>Ricevere avvisi su un altro telefono</h2>
+<p>Telegram può inviare gli avvisi di SteadyHelm al telefono che porta con sé. Lo configuri in <b>Menu → Metodi di Avviso → Telegram</b>. La schermata la guida in sei passaggi.</p>
+<p>Lascia un telefono di scorta a bordo? Configuri prima Telegram sul suo telefono. Poi tocchi <b>Mostra QR</b> sul suo telefono e <b>Scansiona QR</b> su quello di scorta per copiare le impostazioni. Il telefono di scorta non ha bisogno di Telegram.</p>
+
+<h2>Sicurezza</h2>
+<p><b>Nota bene:</b> SteadyHelm è un aiuto in più, non un dispositivo di sicurezza o di navigazione certificato. I sensori del telefono, il GPS e gli avvisi possono guastarsi o arrivare in ritardo. Mantenga sempre una guardia adeguata e segua le regole della buona marineria.</p>
+
+<h2>Privacy</h2>
+<p>SteadyHelm non ha server, account né tracciamento. Informativa completa: <a href="privacy">Informativa sulla Privacy</a>.</p>
+
+<footer class="muted">SteadyHelm v1.0. Contatti: <a href="mailto:steadyhelm@icloud.com">steadyhelm@icloud.com</a></footer>
+</div>
+</body>
+</html>
